@@ -1,0 +1,40 @@
+{
+  "name": "@waynechang65/pokeiv",
+  "version": "1.0.0",
+  "description": "Pokemon's IVs calculator module",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "lib/**",
+    "res/**"
+  ],
+  "scripts": {
+    "start": "node examples/demo.js",
+    "test": "jest --detectOpenHandles",
+    "lint": "eslint index.js lib/**/*.js test/**/*.js examples/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayneChang65/pokeiv.git"
+  },
+  "keywords": [
+    "pokemon",
+    "iv",
+    "calculator"
+  ],
+  "bugs": {
+    "url": "https://github.com/WayneChang65/pokeiv/issues"
+  },
+  "homepage": "https://github.com/WayneChang65/pokeiv#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0"
+  },
+  "author": "WayneChang65",
+  "license": "MIT"
+}
