@@ -107,6 +107,9 @@ async function main() {
 
 		await pokeiv.setLanguage('ko');
 		console.log(await pokeiv.getPokeName_galar(338));
+
+		console.log(pokeiv.textOut(708, ivs_5));
+		console.log(pokeiv.textOut_galar(338, ivs_5g));
 	} catch (err) {
 		console.error(err);
 	}
