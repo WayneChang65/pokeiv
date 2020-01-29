@@ -58,7 +58,7 @@ async function main() {
 
 
 		// For Galar Area
-		let ivs_1g, ivs_2g, ivs_3g, ivs_4g, ivs_5g;
+		let ivs_1g, ivs_2g, ivs_3g, ivs_4g, ivs_5g, ivs_6g;
 
 		// #705 No.390 黏美兒 IVs 31, 31, 31, 31, 31, 27  [68, 75, 53, 83, 113, 60]
 		ivs_1g = await pokeiv.getIVs_galar(390,
@@ -90,11 +90,18 @@ async function main() {
 			[0, 0, 0, 0, 0, 0],
 			[n.normal, n.normal, n.normal, n.normal, n.normal, n.normal]);
 
+
+		ivs_6g = await pokeiv.getIVs_galar(106,
+			27, [1, 59, 30, 29, 28, 30],
+			[0, 0, 0, 0, 0, 0],
+			[n.normal, n.normal, n.normal, n.normal, n.POS, n.NEG]);
+
 		console.log(ivs_1g);
 		console.log(ivs_2g);
 		console.log(ivs_3g);
 		console.log(ivs_4g);
 		console.log(ivs_5g);
+		console.log(ivs_6g);
 
 		await pokeiv.setLanguage('tw');
 		console.log(await pokeiv.getPokeName_galar(338));
@@ -110,6 +117,7 @@ async function main() {
 
 		console.log(pokeiv.textOut(708, ivs_5));
 		console.log(pokeiv.textOut_galar(338, ivs_5g));
+		console.log(pokeiv.textOut_galar(106, ivs_6g));
 	} catch (err) {
 		console.error(err);
 	}
