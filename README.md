@@ -3,9 +3,9 @@
 [![Build Status](https://travis-ci.org/WayneChang65/pokeiv.svg?branch=master)](https://travis-ci.org/WayneChang65/pokeiv)
 [![GitHub](https://img.shields.io/github/license/waynechang65/pokeiv.svg)](https://github.com/WayneChang65/pokeiv/)
 # pokeiv
-pokeiv 是一個可以計算寶可夢**個體值**(Individual values, IVs)的模組。(目前支援本傳三代以後的寶可夢) 
+pokeiv 是一個可以計算寶可夢**個體值**(Individual values, IVs)的模組。(目前支援本傳三代以後的寶可夢, 特別是八代劍盾) 
 
-pokeiv is a module that can be used to calculate **IVs**(Individual values) of Pokémons.(After the 3rd Generation supported)
+pokeiv is a module that can be used to calculate **IVs**(Individual values) of Pokémons.(After the 3rd Generation supported, especially 8th gen sword and shield)
 
 ## 前言(Overview)
 計算寶可夢個體值(Individual values, IVs)幾乎是每個寶可夢玩家會做的事。目前使用Javascript寫寶可夢個體值查詢的開放模組很少，所以寫一個來用。 
@@ -13,8 +13,8 @@ pokeiv is a module that can be used to calculate **IVs**(Individual values) of P
 Calculating individual values(IVs) of Pokémon is almost every Pokémon player will do. Currently there are very few open source modules for calculating Pokémon individual values with Javascript, so write one to use. 
 
 ## 這個模組能做什麼事？ (What can it do ?)
-* 查寶可夢的個體值，查寶可夢的名字。(支援多國語言)    
-Calculating individual values(IVs) of Pokémons, querying names of Pokémons by international numbers.(support multi-languages)
+* 用全國編號或伽勒爾編號查寶可夢的個體值，查寶可夢的名字。(支援多國語言)    
+Calculating individual values(IVs) of Pokémons, querying names of Pokémons by international or Galar number.(support multi-languages)
 
 ## 如何在您的專案使用？ (How to use it in your project ?)
 * 利用 npm 套件進行下載  
@@ -56,8 +56,11 @@ npm start
 
 ## 基本函式 (Base Methods) 
 * setLanguage: 設定多國語言, set a language to use 
-* getIVs: 取得寶可夢個體值(IVs), calculate IVs of Pokemon  
-* getPokeName: 取得寶可夢的名字, query a name of Pokemon by number 
+* getIVs: 用全國編號取得寶可夢個體值(IVs), calculate IVs of Pokemon by international number  
+* getIVs_galar: 用伽勒爾編號取得寶可夢個體值(IVs), calculate IVs of Pokemon by Galar number  
+* getPokeName: 用全國編號取得寶可夢的名字, query a name of Pokemon by international number 
+* getPokeName_galar: 用伽勒爾編號取得寶可夢的名字, query a name of Pokemon by Galar number  
+
 
 ## 參考網站 (Reference)  
 * [Admiral-Fish / RaidFinder](https://github.com/Admiral-Fish/RaidFinder) 
