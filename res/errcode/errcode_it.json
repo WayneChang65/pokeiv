@@ -1,0 +1,84 @@
+{
+    "e001":{
+        "code" : "001",
+        "msg" : "Basis data error"
+    },
+    "e002":{
+        "code" : "002",
+        "msg" : "Galar mapping data error"
+    },
+
+
+    "e101":{
+        "code" : "101",
+        "msg" : "Pokemon number is NOT between 1 to 400 for Galar"
+    },
+    "e102":{
+        "code" : "102",
+        "msg" : "Pokemon level is NOT between 1 to 100"
+    },
+    "e103":{
+        "code" : "103",
+        "msg" : "Number of stats value error (length 6)"
+    },
+    "e104":{
+        "code" : "104",
+        "msg" : "Number of EVs error (length 6)"
+    },
+    "e105":{
+        "code" : "105",
+        "msg" : "Number of natural error (length 6)"
+    },
+
+
+    "e211":{
+        "code" : "211",
+        "msg" : "The 1st natural data error (0, 1, 2)"
+    },
+    "e212":{
+        "code" : "212",
+        "msg" : "The 2nd natural data error (0, 1, 2)"
+    },
+    "e213":{
+        "code" : "213",
+        "msg" : "The 3rd natural data error (0, 1, 2)"
+    },
+    "e214":{
+        "code" : "214",
+        "msg" : "The 4th natural data error (0, 1, 2)"
+    },
+    "e215":{
+        "code" : "215",
+        "msg" : "The 5th natural data error (0, 1, 2)"
+    },
+    "e216":{
+        "code" : "216",
+        "msg" : "The 6th natural data error (0, 1, 2)"
+    },
+
+
+    "e221":{
+        "code" : "221",
+        "msg" : "The 1st IV is unreasonable"
+    },
+    "e222":{
+        "code" : "222",
+        "msg" : "The 2nd IV is unreasonable"
+    },
+    "e223":{
+        "code" : "223",
+        "msg" : "The 3rd IV is unreasonable"
+    },
+    "e224":{
+        "code" : "224",
+        "msg" : "The 4th IV is unreasonable"
+    },
+    "e225":{
+        "code" : "225",
+        "msg" : "The 5th IV is unreasonable"
+    },
+    "e226":{
+        "code" : "226",
+        "msg" : "The 6th IV is unreasonable"
+    }
+}
