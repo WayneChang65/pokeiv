@@ -1,6 +1,7 @@
 [![npm](https://img.shields.io/npm/v/@waynechang65/pokeiv.svg)](https://www.npmjs.com/package/@waynechang65/pokeiv)
 [![npm](https://img.shields.io/npm/dm/@waynechang65/pokeiv.svg)](https://www.npmjs.com/package/@waynechang65/pokeiv)
-[![Build Status](https://travis-ci.org/WayneChang65/pokeiv.svg?branch=master)](https://travis-ci.org/WayneChang65/pokeiv)
+[![Npm package total downloads](https://badgen.net/npm/dt/@waynechang65/pokeiv)](https://npmjs.ccom/package/@waynechang65/pokeiv)
+[![Build Status](https://travis-ci.com/WayneChang65/pokeiv.svg?branch=master)](https://travis-ci.com/WayneChang65/pokeiv)
 [![GitHub](https://img.shields.io/github/license/waynechang65/pokeiv.svg)](https://github.com/WayneChang65/pokeiv/)
 # pokeiv
 pokeiv 是一個可以計算寶可夢**個體值**(Individual values, IVs)的模組。(目前支援本傳三代以後的寶可夢, 特別是八代劍盾) 
